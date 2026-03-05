@@ -1,5 +1,7 @@
 package com.example.java_lms_group_01.model;
 
+import com.example.java_lms_group_01.model.User;
+
 import java.time.LocalDate;
 
 public class Student extends User {

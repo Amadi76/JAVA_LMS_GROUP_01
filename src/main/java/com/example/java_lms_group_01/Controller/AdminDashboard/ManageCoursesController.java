@@ -1,5 +1,6 @@
 package com.example.java_lms_group_01.Controller.AdminDashboard;
 
+import com.example.java_lms_group_01.model.Course;
 import com.example.java_lms_group_01.Repository.CourseRepository;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
