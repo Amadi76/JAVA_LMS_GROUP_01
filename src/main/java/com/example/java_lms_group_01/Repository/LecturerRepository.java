@@ -329,7 +329,7 @@ public class LecturerRepository {
                 withheld
         );
     }
-
+    //update addMarks method
     public void addMarks(String lecturerReg, MarkRequest request) throws SQLException {
         String sql = "INSERT INTO marks ("
                 + "LectureReg, StudentReg, courseCode, quiz_1, quiz_2, quiz_3, "
@@ -356,7 +356,7 @@ public class LecturerRepository {
             statement.executeUpdate();
         }
     }
-
+    //update deleteMarks method
     public void deleteMarks(String lecturerReg, int markId) throws SQLException {
         String sql = "DELETE FROM marks WHERE mark_id = ? AND LectureReg = ?";
         Connection connection = DBConnection.getInstance().getConnection();
